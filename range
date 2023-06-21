@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# https://github.com/telos-matter/range
+# 2023_06, HEMMOUDA Aymane
+
+usage () {
+    echo
+    echo "Range, display a specific range of lines from an input"
+    echo "Usage: range <from> <to> [file]"
+    echo
+}
+
+if [ $# -gt 1 ]
+then
+    TO=$(( $2 - $1 + 1 ))
+    head -n $2 $3 | tail -n $TO
+else
+    usage
+fi
