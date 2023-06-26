@@ -4,9 +4,9 @@ A simple bash script to display a specific range of lines from a file or input
 
 ## Usage examples:
 ```console
-$ range 19 69 data.txt
+$ range 19 50 data.txt
 ```
-Will display all the lines of the data.txt file between the 19th one and the 69th one, inclusive
+Will display all the lines of the data.txt file between the 19th one and the 50th one, inclusive
 
 ```console
 $ cat file.txt | range 10 20
