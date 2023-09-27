@@ -1,4 +1,4 @@
-# Range
+# Range &nbsp; ![DEVELOPMENT STATUS: complete](https://badgen.net/badge/DEVELOPMENT%20STATUS/complete/green)
 
 A simple bash script to display a specific range of lines from a file or input
 
